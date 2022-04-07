@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  background: linear-gradient(#e66465, #9198e5);
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Style the header */
+.header {
+  
+  font-size: 16px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.row .column.side {
+  width: 15%;
+}
+
+/* Middle column */
+.row .column.middle {
+  width: 85%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.two table, th ,td {
+ padding: 0px;
+  border:1px solid grey;
+  text-align: center;
+  
+}
+
+
+img {
+margin-left:5%;
+margin-top: 9%;
+  border-radius: 50%;
+}
+
+
+
+
+
+/* Middle column */
+.Table .column.middle {
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.Table:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <div class="row">
+  <div class="column side" >
+  
+  <img src="logo.jpg" alt="Paris" width="120" height="120">
+  
+  </div>
+  <div class="column middle" >
+ <h3>Neaam Hariri</h3>
+  <h5>Web developer</h5>
+
+    <p>Neaam is a developer who loves to solve “real” existing problems (not makeup fake problems and pretend to solve them) using any programming language. Unfortunately, Neaam doesn’t have either imposter syndrome or ADHD (she might have FOMO). One thing that made Neaam excited to start this blog is that she is bad at writing.
+
+</p>
+  
+</div>
+ 
+</div>
+</div>
+
+<div class="two">
+<div class="Table">
+  <div class="column middle" >
+  
+  
+<table  style="width:100%;">
+
+  <tr>
+    <td>Email</td>
+    <td>
+        <a href = "mailto: Neaamhariri@protonmail.com">Neaamhariri@protonmail.com</a>
+        </td>
+   
+    
+  </tr>
+  <tr>
+    <td>Phone</td>
+    <td>0580010798</td>
+   
+    
+  </tr>
+  
+  <tr>
+    <td>Linkedin</td>
+    <td><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiOz9Dn_oH3AhVxQ_EDHR-0A3kQFnoECBAQAQ&url=https%3A%2F%2Fgithub.com%2FNeaamHariri&usg=AOvVaw2LiuOkj6RgLATCPLgHJmrP"
+        >Neaam hariri</a></td>
+  
+    
+  </tr>
+   <tr>
+    <td>Github</td>
+    <td>
+        <a href="https://www.linkedin.com/in/neaam-hariri-265452184/?originalSubdomain=sa"
+        >Neaam hariri</a>  </td>
+  
+    
+  </tr>
+</table>
+   </div>
+  </div>
+  
+</div>
+
+<div class="Table">
+  <div class="column middle" >
+  
+  <table  style="width:100% ">
+  <tr>
+    <td>
+    
+    <h5>Experiance</h5>
+    
+    <h5>Job title</h5>
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+    
+    </td>
+    <td>
+    <h5></h5>
+    <h5>Experiance</h5>
+    
+    <h5>Job title</h5>
+    <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+    </td>
+   
+    
+  </tr>
+
+</table>
+  
+  
+  
+  </div>
+  
+</div>
+
+
+
+<div class="footer">
+    <form method="POST" action="contact.html">
+        <input type="submit"/>
+      </form>
+</div>
+
+</body>
+</html>
+
+
+
